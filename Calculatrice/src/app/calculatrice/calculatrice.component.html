@@ -1,0 +1,14 @@
+<div>
+<button (click)="getRandomInt()">Générer nombre 1</button>
+<button (click)="getRandomInt()">Générer nombre 2</button>
+
+<p>Nombre 1: {{ randomInt1 }}</p>
+<p>Nombre 2: {{ randomInt2 }}</p>
+
+<button (click)="calculate('+')">+</button>
+<button (click)="calculate('-')">-</button>
+<button (click)="calculate('/')">/</button>
+<button (click)="calculate('*')">*</button>
+
+<p>Résultat: {{ result }}</p>
+</div>
